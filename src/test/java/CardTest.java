@@ -50,6 +50,9 @@ public class CardTest {
 		card2 = new Card(Card.Suit.SPADES, Card.Rank.SEVEN);
 		assert(card1.equals(card2));
 		
+		// Compare a card with itself
+		assert(card1.equals(card1));
+		
 		// Compare a null suit with a non-null suit
 		card2 = new Card(null, Card.Rank.EIGHT);
 		assertFalse(card1.equals(card2));
