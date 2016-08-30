@@ -1,3 +1,5 @@
+package main.java;
+
 /**
  * Represents a playing card.
  * A playing card has a suit - Diamonds, Hearts, Clubs, or Spades,
@@ -11,13 +13,13 @@ public class Card {
 	 * Suit of a playing card.
 	 * @author DustinKieler
 	 */
-	private enum Suit { DIAMONDS, HEARTS, CLUBS, SPADES }
+	public enum Suit { DIAMONDS, HEARTS, CLUBS, SPADES }
 	
 	/**
 	 * Rank of a playing card.
 	 * @author DustinKieler
 	 */
-	private enum Rank {
+	public enum Rank {
 		ACE, TWO, THREE, FOUR, FIVE, SIX, SEVEN,
 		EIGHT, NINE, TEN, JACK, QUEEN, KING;
 		
