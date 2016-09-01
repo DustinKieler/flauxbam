@@ -13,7 +13,9 @@ public class Card {
 	 * Suit of a playing card.
 	 * @author DustinKieler
 	 */
-	public enum Suit { DIAMONDS, HEARTS, CLUBS, SPADES }
+	public enum Suit {
+		DIAMONDS, HEARTS, CLUBS, SPADES;
+	}
 	
 	/**
 	 * Rank of a playing card.
