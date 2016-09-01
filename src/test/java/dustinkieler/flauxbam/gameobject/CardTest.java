@@ -1,4 +1,4 @@
-package test.java;
+package dustinkieler.flauxbam.gameobject;
 
 import static org.hamcrest.CoreMatchers.not;
 import static org.junit.Assert.assertEquals;
@@ -6,8 +6,6 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertThat;
 
 import org.junit.Test;
-
-import main.java.Card;
 
 public class CardTest {
 

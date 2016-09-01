@@ -1,4 +1,4 @@
-package main.java;
+package dustinkieler.flauxbam.gameobject;
 
 /**
  * Represents a playing card.
